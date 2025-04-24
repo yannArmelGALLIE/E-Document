@@ -7,9 +7,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    caret-color: transparent;
 }
 
 body {
     height: 100vh;
     background: $primary-color;
+}
+
+main {
+    position: relative;
+    margin-top: 100px;
 }

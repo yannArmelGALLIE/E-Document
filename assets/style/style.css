@@ -1,7 +1,11 @@
 .section-header {
-  position: relative;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
   background: #ffffff;
   padding: 0 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .section-header img {
@@ -105,6 +109,20 @@
   display: block;
 }
 
+.progress {
+  position: fixed;
+  left: 0;
+  height: 4px;
+  z-index: 300;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 4px;
+  background: #228B22;
+  width: 0%;
+}
+
 @media (max-width: 990px) {
   .section-header header .menu .links,
   .section-header header .menu .button a {
@@ -119,11 +137,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  caret-color: transparent;
 }
 
 body {
   height: 100vh;
   background: #ffffff;
+}
+
+main {
+  position: relative;
+  margin-top: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

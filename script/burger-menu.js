@@ -6,3 +6,5 @@ burgerMenuButton.addEventListener("click", () => {
     const isOpen = burgerMenu.classList.contains("open")
     burgerMenuButton.innerHTML = isOpen ? "<span class=\"material-symbols-outlined\">close</span>" : "<span class=\"material-symbols-outlined\">menu</span>"
 })
+
+
