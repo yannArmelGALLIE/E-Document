@@ -1,3 +1,15 @@
 // Header
+@use "abstract" as *;
 @use "component/header";
 
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: $primary-color;
+}

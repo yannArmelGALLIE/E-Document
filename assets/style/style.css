@@ -1,7 +1,129 @@
 .section-header {
   position: relative;
-  margin-top: 0;
-  background: #228B22;
+  background: #ffffff;
+  padding: 0 2rem;
+}
+
+.section-header img {
+  height: 150px;
+}
+
+.section-header li {
+  list-style: none;
+}
+
+.section-header a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.section-header header .menu {
+  width: 100%;
+  max-width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-header header .menu .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.section-header header .links a {
+  color: #333;
+}
+
+.section-header header .links a:hover {
+  color: #ff8c00;
+}
+
+.section-header header .burger-menu-button {
+  color: #333;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.section-header header .burger-menu-button span {
+  caret-color: transparent;
+}
+
+.section-header header .button a {
+  background-color: #ff8c00;
+  border: 2px solid #ff8c00;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.section-header header .button a:hover {
+  background-color: #e67600;
+}
+
+.section-header header .burger-menu {
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  width: 200px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.section-header header .burger-menu li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header header .burger-menu .button {
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header header .burger-menu .divider {
+  height: 1px;
+  background-color: #ffffff;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-header header .open {
+  display: block;
+}
+
+@media (max-width: 990px) {
+  .section-header header .menu .links,
+  .section-header header .menu .button a {
+    display: none;
+  }
+  .section-header header .menu .burger-menu-button {
+    display: block;
+  }
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,116 @@
 @use "../abstract" as *;
 
-.section-header {
-    position: relative;
-    margin-top: 0;
-    background: $header-color;
+// Menu
+.section-header  {
+  position: relative;
+  background: $primary-color;
+  padding: 0 2rem;
+}
+
+.section-header img {
+  height: $small-img;
+}
+
+.section-header li {
+  list-style: none;
+}
+
+.section-header a {
+  text-decoration: none;
+  font-size: $small-text;
+}
+
+.section-header header .menu {
+  width: 100%;
+  max-width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-header header .menu .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.section-header header .links a {
+  color: $primary-text-color;
+}
+
+.section-header header .links a:hover {
+  color: $primary-hover-text-color;
+}
+
+.section-header header .burger-menu-button {
+  color: $primary-text-color;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.section-header header .burger-menu-button span {
+    caret-color: transparent;
+}
+
+.section-header header .button a {
+    @include button_style();
+}
+
+.section-header header .button a:hover {
+    @include hover_button_style();
+}
+
+// Burger Menu
+.section-header header .burger-menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.section-header header .burger-menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header header .burger-menu .button {
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header header .burger-menu .divider {
+    height: 1px;
+    background-color: $primary-color;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-header header .open {
+    display: block;
+}
+
+// Responsive
+@media (max-width: 990px) {
+    .section-header header .menu .links,
+    .section-header header .menu .button a {
+        display: none;
+    }
+
+    .section-header header .menu .burger-menu-button  {
+        display: block;
+    }
 }
