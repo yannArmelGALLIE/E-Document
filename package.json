@@ -1,0 +1,15 @@
+{
+  "name": "e-demande",
+  "version": "1.0.0",
+  "description": "Smart Portal for Administrative Document Requests",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch assets/sass/style.scss assets/style/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
+}

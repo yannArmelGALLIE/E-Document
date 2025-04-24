@@ -1,0 +1,7 @@
+@use "../abstract" as *;
+
+.section-header {
+    position: relative;
+    margin-top: 0;
+    background: $header-color;
+}
