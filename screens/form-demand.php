@@ -5,53 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/img/favicon.png" sizes="32x32">
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="../assets/style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <script src="script/burger-menu.js" defer></script>
-    <script src="script/scroll-bar.js" defer></script>
-    <script src="script/active-link.js" defer></script>
+    <script src="../script/burger-menu.js" defer></script>
+    <script src="../script/scroll-bar.js" defer></script>
+    <script src="../script/active-link.js" defer></script>
     <title>Accueil | E-Document</title>
 </head>
 
 <body>
     <!-- Header -->
-    <section class="section-header">
-        <header>
-            <div class="menu">
-                <div class="logo">
-                    <img src="assets/img/logo.png" alt="Logo de E-Document">
-                </div>
-                <ul class="links">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="status.html">Status</a></li>
-                    <li><a href="about.html">A propos</a></li>
-                    <li><a href="service.html">Contact</a></li>
-                </ul>
-                <div class="button">
-                    <a href="user.html">Se connecter</a>
-                </div>
-                <div class="burger-menu-button">
-                    <span class="material-symbols-outlined">menu</span>
-                </div>
-            </div>
-            <div class="burger-menu">
-                <ul class="links">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="status.html">Status</a></li>
-                    <li><a href="about.html">A propos</a></li>
-                    <li><a href="service.html">Contact</a></li>
-                </ul>
-                <div class="divider"></div>
-                <div class="button">
-                    <a href="user.html">Se connecter</a>
-                </div>
-            </div>
-        </header>
-        <div class="progress">
-            <div class="progress-bar" id="scroll-bar"></div>
-         </div>
-    </section>
     <!-- Body -->
      <section class="section-main">
         <main>
@@ -60,7 +24,7 @@
                 <h2 class="second-title">Demandez. Suivez. Recevez.</h2>
             </div>
             <div class="form-demand">
-                <form action="" method="post">
+                <form action="../data/submit-demand.php" method="post">
                     <fieldset>
                         <legend>Citoyenneté - Etat Civil</legend>
                         <input type="checkbox" name="" id=""><label>Justificatif d'identité</label><br>
@@ -83,11 +47,6 @@
         </main>
      </section>
      <!-- Footer -->
-      <section class="section-footer">
-        <footer>
-            <a href="index.html">&copy; 2025 E-Document. Tous droits réservés.</a>
-        </footer>
-      </section>
 </body>
 
 </html>
