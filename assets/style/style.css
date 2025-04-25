@@ -145,14 +145,62 @@
 
 .title {
   color: #ff8c00;
+  font-size: 3rem;
   padding: 15px;
 }
 
 .second-title {
   color: #333;
+  font-size: 2rem;
   padding-left: 15px;
   top: 0;
   left: 0;
+}
+
+.form-demand {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.form-demand form {
+  margin-top: 15px;
+}
+
+.form-demand form fieldset {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.form-demand form legend {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #228B22;
+}
+
+.form-demand form label {
+  padding: 10px;
+}
+
+.form-demand form input {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.form-demand form button {
+  background-color: #ff8c00;
+  border: 2px solid #ff8c00;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-demand form button:hover {
+  background-color: #e67600;
 }
 
 * {

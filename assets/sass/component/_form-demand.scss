@@ -1,0 +1,40 @@
+@use "../abstract" as *;
+
+.form-demand {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $default-space;
+}
+
+.form-demand form {
+    margin-top: $default-space;
+}
+
+.form-demand form fieldset{
+    padding: $default-space;
+    margin-bottom: $default-space;
+}
+
+.form-demand form legend {
+font-size: $normal-text;
+font-weight: 600;
+color: $secondary-color;
+}
+
+.form-demand form label {
+    padding: 10px;
+}
+
+.form-demand form input{
+    margin-bottom: $default-space;
+    cursor: pointer;
+}
+
+.form-demand form button {
+    @include button_style();
+}
+
+.form-demand form button:hover {
+    @include hover_button_style();
+}
