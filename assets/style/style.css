@@ -16,6 +16,10 @@
   list-style: none;
 }
 
+.active {
+  border-bottom: 2px solid #228B22;
+}
+
 .section-header a {
   text-decoration: none;
   font-size: 1rem;
@@ -145,9 +149,9 @@ body {
   background: #ffffff;
 }
 
-main {
-  position: relative;
-  margin-top: 100px;
+/* Display Block For Deafault Scrool Bar */
+html::-webkit-scrollbar {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

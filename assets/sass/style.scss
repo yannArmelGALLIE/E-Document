@@ -15,7 +15,8 @@ body {
     background: $primary-color;
 }
 
-main {
-    position: relative;
-    margin-top: 100px;
-}
+ /* Display Block For Deafault Scrool Bar */
+
+ html::-webkit-scrollbar {
+    display: none;
+  }

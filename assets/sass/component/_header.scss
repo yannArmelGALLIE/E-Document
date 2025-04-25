@@ -19,6 +19,10 @@
   list-style: none;
 }
 
+.active {
+  border-bottom: 2px solid $secondary-color;
+}
+
 .section-header a {
   text-decoration: none;
   font-size: $small-text;
@@ -120,8 +124,6 @@
   background: $secondary-color;
   width: 0%;
 }
-
-
 
 // Responsive
 @media (max-width: 990px) {
