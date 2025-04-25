@@ -171,6 +171,7 @@
 .form-demand form fieldset {
   padding: 15px;
   margin-bottom: 15px;
+  border: 2px solid #228B22;
 }
 
 .form-demand form legend {
@@ -181,6 +182,7 @@
 
 .form-demand form label {
   padding: 10px;
+  font-weight: bolder;
 }
 
 .form-demand form input {
@@ -201,6 +203,23 @@
 
 .form-demand form button:hover {
   background-color: #e67600;
+}
+
+.section-footer {
+  background-color: #228B22;
+  height: 35px;
+}
+
+.section-footer footer {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-footer a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
 }
 
 * {

@@ -14,6 +14,7 @@
 .form-demand form fieldset{
     padding: $default-space;
     margin-bottom: $default-space;
+    border: 2px solid $secondary-color;
 }
 
 .form-demand form legend {
@@ -24,6 +25,7 @@ color: $secondary-color;
 
 .form-demand form label {
     padding: 10px;
+    font-weight: bolder;
 }
 
 .form-demand form input{
