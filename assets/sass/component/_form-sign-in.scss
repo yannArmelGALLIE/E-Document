@@ -1,0 +1,65 @@
+@use "../abstract" as *;
+
+.form-sign-in{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $default-space;
+}
+
+.form-sign-in form{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-sign-in form label {
+    font-size: $normal-text;
+    font-weight: 400;
+}
+
+.form-sign-in form div {
+    width: 100%;
+}
+
+.form-sign-in form div input {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 2px solid $secondary-color;
+}
+
+.form-sign-in form input[type="submit"] {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    @include button_style();
+}
+
+.form-sign-in form a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: $primary-text-color;
+}
+
+.form-sign-in form input[type="submit"]:hover {
+    @include hover_button_style();
+}
+
+.form-sign-in form input[type="number"]::-webkit-inner-spin-button,
+.form-sign-in form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.numCni {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

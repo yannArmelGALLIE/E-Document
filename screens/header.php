@@ -29,7 +29,7 @@
                     <li><a href="service.php">Contact</a></li>
                 </ul>
                 <div class="button">
-                    <a href="user.php">Se connecter</a>
+                    <a href="sign-in.php">Se connecter</a>
                 </div>
                 <div class="burger-menu-button">
                     <span class="material-symbols-outlined">menu</span>
@@ -44,7 +44,7 @@
                 </ul>
                 <div class="divider"></div>
                 <div class="button">
-                    <a href="user.php">Se connecter</a>
+                    <a href="sign-in.php">Se connecter</a>
                 </div>
             </div>
         </header>

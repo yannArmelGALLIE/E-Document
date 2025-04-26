@@ -33,10 +33,10 @@ color: $secondary-color;
     cursor: pointer;
 }
 
-.form-demand form button {
+.form-demand form input[type="submit"] {
     @include button_style();
 }
 
-.form-demand form button:hover {
+.form-demand form input[type="submit"]:hover {
     @include hover_button_style();
 }
