@@ -17,7 +17,7 @@
 <body>
 <section class="section-footer">
         <footer>
-            <a href="../index.php">&copy; 2025 E-Document. Tous droits réservés.</a>
+            <a href="./index.php">&copy; 2025 E-Document. Tous droits réservés.</a>
         </footer>
 </section>
 </body>

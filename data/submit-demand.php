@@ -1,4 +1,5 @@
 <?php 
+ session_start();
 if(isset($_POST["submit"])){
    $checkboxes = $_POST["checkboxes"];
    foreach($checkboxes as $checkbox) {
