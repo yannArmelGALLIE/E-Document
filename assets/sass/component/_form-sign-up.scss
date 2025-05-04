@@ -86,11 +86,12 @@
     -webkit-appearance: none;
 }
 
-.button {
+.form-sign-up .button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    flex-direction: row;
+    gap: 5px;
     width: 100%;
     margin: 10px 0;
 }
