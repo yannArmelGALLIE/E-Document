@@ -4,6 +4,7 @@
 @use "component/title-area";
 @use "component/form-demand";
 @use "component/form-sign-in";
+@use "component/form-sign-up";
 @use "component/footer";
 
 * {
@@ -20,7 +21,27 @@
     display: none;
   }
 
+body {
+  background-color: $default-color;
+}
+
 .section-main {
     margin-top: 4rem;
     width: 100%;
+}
+
+.error {
+  color: $error-color;
+}
+
+.warning {
+  color: $warning-color;
+}
+
+.success {
+  color: $success-color;
+}
+
+.info {
+  color: $info-color;
 }

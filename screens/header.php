@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -20,7 +21,7 @@
         <header>
             <div class="menu">
                 <div class="logo">
-                    <img src="../assets/img/logo.png" alt="Logo de E-Document">
+                    <img src="./assets/img/logo.png" alt="Logo de E-Document">
                 </div>
                 <ul class="links">
                     <li><a href="index.php">Accueil</a></li>
@@ -29,7 +30,13 @@
                     <li><a href="service.php">Contact</a></li>
                 </ul>
                 <div class="button">
-                    <a href="sign-in.php">Se connecter</a>
+                    <?php    
+                        if (!empty($_SESSION["user"]) && !empty($_SESSION["password"])) {
+                            echo '<a href="user.php">Utilisateur</a>';
+                        } else {
+                            echo '<a href="sign-in.php">Se connecter</a>';
+                        }
+                    ?>   
                 </div>
                 <div class="burger-menu-button">
                     <span class="material-symbols-outlined">menu</span>
@@ -44,7 +51,13 @@
                 </ul>
                 <div class="divider"></div>
                 <div class="button">
-                    <a href="sign-in.php">Se connecter</a>
+                    <?php    
+                        if (!empty($_SESSION["user"]) && !empty($_SESSION["password"])) {
+                            echo '<a href="user.php">Utilisateur</a>';
+                        } else {
+                            echo '<a href="sign-in.php">Se connecter</a>';
+                        }
+                    ?>   
                 </div>
             </div>
         </header>

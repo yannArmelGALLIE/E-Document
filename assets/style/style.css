@@ -62,7 +62,7 @@
 .section-header header .button a {
   background-color: #ff8c00;
   border: 2px solid #ff8c00;
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   outline: none;
   color: #ffffff;
@@ -193,7 +193,7 @@
 .form-demand form input[type=submit] {
   background-color: #ff8c00;
   border: 2px solid #ff8c00;
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   outline: none;
   color: #ffffff;
@@ -203,6 +203,20 @@
 
 .form-demand form input[type=submit]:hover {
   background-color: #e67600;
+}
+
+.main-sign-in {
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  display: flex;
+  gap: 2px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.main-sign-in > .title-area > h1 {
+  font-size: 2rem;
 }
 
 .form-sign-in {
@@ -223,17 +237,22 @@
 }
 
 .form-sign-in form label {
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  float: right;
+  align-items: center;
 }
 
 .form-sign-in form div {
   width: 100%;
+  margin-right: 10px;
 }
 
 .form-sign-in form div input {
-  padding: 15px;
-  margin-top: 10px;
+  padding: 10px;
   margin-bottom: 10px;
   width: 100%;
   font-size: 1.1rem;
@@ -247,7 +266,7 @@
   margin-bottom: 10px;
   background-color: #ff8c00;
   border: 2px solid #ff8c00;
-  padding: 0.5rem 1.2rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   outline: none;
   color: #ffffff;
@@ -257,23 +276,143 @@
 
 .form-sign-in form a {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #333;
+}
+
+#error {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 10px;
 }
 
 .form-sign-in form input[type=submit]:hover {
   background-color: #e67600;
 }
 
-.form-sign-in form input[type=number]::-webkit-inner-spin-button,
-.form-sign-in form input[type=number]::-webkit-outer-spin-button {
+.main-sign-up {
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  display: flex;
+  gap: 2px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.main-sign-up > .title-area > h1 {
+  font-size: 2rem;
+}
+
+.form-sign-up {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.form-sign-up form {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-sign-up form label {
+  font-size: 1.3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: right;
+  align-items: center;
+}
+
+.form-sign-up form div {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.form-sign-up form div input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 2px solid #228B22;
+}
+
+.form-sign-up form input[type=submit] {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ff8c00;
+  border: 2px solid #ff8c00;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-sign-up form a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+}
+
+#error {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.form-sign-up form input[type=submit]:hover {
+  background-color: #e67600;
+}
+
+.form-sign-up form input[type=number]::-webkit-inner-spin-button,
+.form-sign-up form input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
 }
 
-.numCni {
+.button {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.button > .prev, .next {
+  background-color: #ff8c00;
+  border: 2px solid #ff8c00;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.button > .prev:hover, .next:hover {
+  background-color: #e67600;
+}
+
+.non-active-input {
+  display: none;
 }
 
 .section-footer {
@@ -307,9 +446,29 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+body {
+  background-color: #ccc;
+}
+
 .section-main {
   margin-top: 4rem;
   width: 100%;
+}
+
+.error {
+  color: #D32F2F;
+}
+
+.warning {
+  color: #F57C00;
+}
+
+.success {
+  color: #388E3C;
+}
+
+.info {
+  color: #1976D2;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 @use "../abstract" as *;
 
-.main-sign-in {
+.main-sign-up {
     width: 80%;
     margin: auto;
     background-color: $primary-color;
@@ -11,18 +11,18 @@
 }
 
 
-.main-sign-in > .title-area > h1 {
+.main-sign-up > .title-area > h1 {
     font-size: 2rem;
 }
 
-.form-sign-in{
+.form-sign-up {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: $default-space;
 }
 
-.form-sign-in form{
+.form-sign-up form{
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
@@ -32,22 +32,22 @@
     justify-content: center;
 }
 
-.form-sign-in form label {
+.form-sign-up form label {
     font-size: 1.3rem;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-between;
     float: right;
     align-items: center;
 }
 
-.form-sign-in form div {
+.form-sign-up form div {
     width: 100%;
     margin-right: 10px;
 }
 
-.form-sign-in form div input {
+.form-sign-up form div input {
     padding: 10px;
     margin-bottom: 10px;
     width: 100%;
@@ -56,14 +56,14 @@
     border: 2px solid $secondary-color;
 }
 
-.form-sign-in form input[type="submit"] {
+.form-sign-up form input[type="submit"] {
     font-size: 1.3rem;
     margin-top: 10px;
     margin-bottom: 10px;
     @include button_style();
 }
 
-.form-sign-in form a {
+.form-sign-up form a {
     text-decoration: none;
     font-size: 1rem;
     color: $primary-text-color;
@@ -77,13 +77,43 @@
     margin-bottom: 10px;
 } 
 
-.form-sign-in form input[type="submit"]:hover {
+.form-sign-up form input[type="submit"]:hover {
+    @include hover_button_style();
+}
+
+.form-sign-up form input[type="number"]::-webkit-inner-spin-button,
+.form-sign-up form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.button > .prev, .next {
+    @include button_style();
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button > .prev:hover, .next:hover {
     @include hover_button_style();
 }
 
 
 
-// .form-sign-in form input[type="number"]::-webkit-inner-spin-button,
-// .form-sign-in form input[type="number"]::-webkit-outer-spin-button {
-//     -webkit-appearance: none;
-// }
+.non-active-input {
+    display: none;
+}
+
+
+
+
+
+
