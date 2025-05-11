@@ -14,11 +14,9 @@ if(isset($_POST["submit"])){
       if($rep) {
          $checkboxes = $_POST["checkboxes"];
          $demand = implode(", ", $checkboxes);
-         // foreach($checkboxes as $checkbox) {
-         //  echo $checkbox . "<br>";
-         // } 
-         echo $rep["surname"];
-         $req = $bdd -> prepare("INSERT INTO request VALUES (0, :id_user, :numCni, :email, :password, :demand)");
+         $date = date("Y-m-d");
+         $time = date("H:i:s");
+         $req = $bdd -> prepare("INSERT INTO request VALUES (0, :id_user, :numCni, :email, :password, :demand, :requestDate, :requestTime, :receptionDate, :receptionTime, :status)");
          $req -> execute(
              array(
                  "id_user" => $rep["id"],
@@ -26,8 +24,14 @@ if(isset($_POST["submit"])){
                  "email" => $rep["email"],
                  "password" => $rep["password"],
                  "demand" => $demand,
+                 "requestDate" => $date,
+                 "requestTime" => $time,
+                 "receptionDate" => null,
+                 "receptionTime" => null,
+                 "status" => "En cours d'envoie"
              )
          );
+      header("Location: ../status.php");
       } else {
          echo "erreur";
       }

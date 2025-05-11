@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./assets/style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <script src="script/stage-script.js" defer></script>
     <script src="client/client_sign-up.js" defer></script>
+    <script src="script/stage-script.js" defer></script>
     <title>S'inscrire | E-Document</title>
 </head>
 
@@ -21,8 +21,7 @@
             <h1 class="title">Veuillez creer un compte pour continuer.</h1>
         </div>
         <div class="form-sign-up">
-        <!-- ./data/sign-up-traitement.php -->
-            <form action="" method="POST" id="signUpForm">
+            <form action="./data/sign-up-traitement.php" method="POST" id="signUpForm">
                 <div>
                     <div id="stage1" class="stage1">
                         <label for="">

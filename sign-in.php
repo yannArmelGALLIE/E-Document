@@ -25,7 +25,7 @@ session_start();
         </div>
         <div class="form-sign-in">
         <!-- ./data/sign-in-traitement.php -->
-            <form action="" method="POST" id="signInForm">
+            <form action="./data/sign-in-traitement.php" method="POST" id="signInForm">
                 <div>
                 <label for="">
                     <span class="material-symbols-outlined">pin</span>

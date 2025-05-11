@@ -3,11 +3,11 @@
 .main-sign-in {
     width: 80%;
     margin: auto;
-    background-color: $primary-color;
+    background-color: $default-color;
     display: flex;
     gap: 2px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
+    box-shadow:  34px 34px 67px #bcbcbc,
+                 -34px -34px 67px #ffffff;
 }
 
 

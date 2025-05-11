@@ -5,28 +5,32 @@
 @use "component/form-demand";
 @use "component/form-sign-in";
 @use "component/form-sign-up";
+@use "component/status";
 @use "component/footer";
+@use "component/admin";
 
 * {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    caret-color: transparent;
+    // caret-color: transparent;
+}
+
+body {
+  min-height: 100vh;
+  overflow: auto;
 }
 
  /* Display Block For Deafault Scrool Bar */
 
- html::-webkit-scrollbar {
-    display: none;
-  }
-
-body {
-  background-color: $default-color;
-}
+//  html::-webkit-scrollbar {
+//     display: none;
+//   }
 
 .section-main {
     margin-top: 4rem;
+    margin-bottom: 4rem;
     width: 100%;
 }
 
