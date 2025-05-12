@@ -1,0 +1,128 @@
+[
+  {
+    "surname": "GALLIE",
+    "firstName": "Koffi Yann-Armel",
+    "email": "yann@edocument.com",
+    "registrationNumber": "1011121314GY",
+    "numPhone": "+2550710971006",
+    "password": "admin_edocument",
+    "status": null
+  },
+  {
+    "surname": "G0RE BI",
+    "firstName": "IRIE",
+    "email": "gore@edocument.com",
+    "registrationNumber": "1011121314GI",
+    "numPhone": "+2550710971007",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "SILUE",
+    "firstName": "Rokia",
+    "email": "silue@edocument.com",
+    "registrationNumber": "1011121314SR",
+    "numPhone": "+2550710971008",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "SERY",
+    "firstName": "Ange",
+    "email": "sery@edocument.com",
+    "registrationNumber": "1011121314SA",
+    "numPhone": "+2550710971009",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "KONE",
+    "firstName": "Ali Ibrahim",
+    "email": "kone@edocument.com",
+    "registrationNumber": "1011121314KA",
+    "numPhone": "+2550710971010",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "COULIBALY",
+    "firstName": "Fatoumata",
+    "email": "coulibaly@edocument.com",
+    "registrationNumber": "1011121314CF",
+    "numPhone": "+2550710971011",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "TRAORE",
+    "firstName": "Moussa",
+    "email": "traore@edocument.com",
+    "registrationNumber": "1011121314TM",
+    "numPhone": "+2550710971012",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "DIARRA",
+    "firstName": "Aminata",
+    "email": "diarra@edocument.com",
+    "registrationNumber": "1011121314DA",
+    "numPhone": "+2550710971013",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "KOUASSI",
+    "firstName": "Jean-Paul",
+    "email": "kouassi@edocument.com",
+    "registrationNumber": "1011121314KJ",
+    "numPhone": "+2550710971014",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "BLE",
+    "firstName": "Clarisse",
+    "email": "ble@edocument.com",
+    "registrationNumber": "1011121314BC",
+    "numPhone": "+2550710971015",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "YAO",
+    "firstName": "David Arnaud",
+    "email": "yao@edocument.com",
+    "registrationNumber": "1011121314YD",
+    "numPhone": "+2550710971016",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "AKPA",
+    "firstName": "Rachel",
+    "email": "akpa@edocument.com",
+    "registrationNumber": "1011121314AR",
+    "numPhone": "+2550710971017",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "OUATTARA",
+    "firstName": "Nadège",
+    "email": "ouattara@edocument.com",
+    "registrationNumber": "1011121314ON",
+    "numPhone": "+2550710971018",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  },
+  {
+    "surname": "N'DA",
+    "firstName": "Félix Kouamé",
+    "email": "nda@edocument.com",
+    "registrationNumber": "1011121314NK",
+    "numPhone": "+2550710971019",
+    "password": "admin_edocument",
+    "status": "Deconnecté"
+  }
+]

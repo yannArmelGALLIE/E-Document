@@ -1,0 +1,137 @@
+[
+  {
+    "surname": "TRAORE",
+    "firstName": "Fatou",
+    "number": "0701122334",
+    "email": "fatou@gmail.com",
+    "numCni": "CI345678",
+    "numNni": "987654",
+    "password": "motDePasse1"
+  },
+  {
+    "surname": "KONE",
+    "firstName": "Abdoulaye",
+    "number": "0705566778",
+    "email": "abdoulaye@gmail.com",
+    "numCni": "CI456789",
+    "numNni": "876543",
+    "password": "motDePasse2"
+  },
+  {
+    "surname": "COULIBALY",
+    "firstName": "Aïcha",
+    "number": "0709988776",
+    "email": "aicha@gmail.com",
+    "numCni": "CI567890",
+    "numNni": "765432",
+    "password": "motDePasse3"
+  },
+  {
+    "surname": "DIARRA",
+    "firstName": "Mahamadou",
+    "number": "0701234567",
+    "email": "mahamadou@gmail.com",
+    "numCni": "CI678901",
+    "numNni": "654321",
+    "password": "motDePasse4"
+  },
+  {
+    "surname": "TOURE",
+    "firstName": "Salimata",
+    "number": "0702345678",
+    "email": "salimata@gmail.com",
+    "numCni": "CI789012",
+    "numNni": "543210",
+    "password": "motDePasse5"
+  },
+  {
+    "surname": "OUATTARA",
+    "firstName": "Bakary",
+    "number": "0703456789",
+    "email": "bakary@gmail.com",
+    "numCni": "CI890123",
+    "numNni": "432109",
+    "password": "motDePasse6"
+  },
+  {
+    "surname": "KOUAME",
+    "firstName": "Louise",
+    "number": "0704567890",
+    "email": "louise@gmail.com",
+    "numCni": "CI901234",
+    "numNni": "321098",
+    "password": "motDePasse7"
+  },
+  {
+    "surname": "BLE",
+    "firstName": "Marc",
+    "number": "0705678901",
+    "email": "marc@gmail.com",
+    "numCni": "CI012345",
+    "numNni": "210987",
+    "password": "motDePasse8"
+  },
+  {
+    "surname": "N'DA",
+    "firstName": "Alice",
+    "number": "0706789012",
+    "email": "alice@gmail.com",
+    "numCni": "CI123456",
+    "numNni": "109876",
+    "password": "motDePasse9"
+  },
+  {
+    "surname": "KOUASSI",
+    "firstName": "Fabrice",
+    "number": "0707890123",
+    "email": "fabrice@gmail.com",
+    "numCni": "CI234567",
+    "numNni": "908765",
+    "password": "motDePasse10"
+  },
+  {
+    "surname": "SANGARE",
+    "firstName": "Binta",
+    "number": "0708901234",
+    "email": "binta@gmail.com",
+    "numCni": "CI345679",
+    "numNni": "807654",
+    "password": "motDePasse11"
+  },
+  {
+    "surname": "YAO",
+    "firstName": "Armel",
+    "number": "0709012345",
+    "email": "armel@gmail.com",
+    "numCni": "CI456780",
+    "numNni": "706543",
+    "password": "motDePasse12"
+  },
+  {
+    "surname": "KOUADIO",
+    "firstName": "Emmanuelle",
+    "number": "0701123456",
+    "email": "emmanuelle@gmail.com",
+    "numCni": "CI567891",
+    "numNni": "605432",
+    "password": "motDePasse13"
+  },
+  {
+    "surname": "N'GUESSAN",
+    "firstName": "David",
+    "number": "0702234567",
+    "email": "david@gmail.com",
+    "numCni": "CI678902",
+    "numNni": "504321",
+    "password": "motDePasse14"
+  },
+  {
+    "surname": "GNAHORE",
+    "firstName": "Lucie",
+    "number": "0703345678",
+    "email": "lucie@gmail.com",
+    "numCni": "CI789013",
+    "numNni": "403210",
+    "password": "motDePasse15"
+  }
+]
