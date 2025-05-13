@@ -1,9 +1,15 @@
 <?php 
 session_start();
+$error_msg = "";
+
+if(isset($_GET["error"])) {
+    $error_msg = "Numéro de CNI ou mot de passe incorrect";
+}
+
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -39,7 +45,10 @@ session_start();
                 <input type="password" name="password"  id="password"><br>
                 </div>
                 <input type="submit" name="submit" value="Se connecter" ><br>
-                <div id="error"></div>
+                <div class="" id="error"></div>
+                <?php if(!empty($error_msg)): ?>
+                <div id="error" class="error-php"><?= htmlspecialchars($error_msg) ?></div>
+                <?php endif; ?>
                 <a href="">J'ai oublié mon mot de passe</a><br>
                 <a href="sign-up.php">Créer un nouveau compte</a>
             </form>

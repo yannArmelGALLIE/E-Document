@@ -7,7 +7,7 @@ signInForm.addEventListener("submit", (e) => {
 
     if( !numCni || !password) {
         e.preventDefault();
-        errorMessage.classList.add("error");
+        errorMessage.classList.add("warning");
         errorMessage.innerText = "Tous les champs doivent être remplis";
     }
 })

@@ -1,0 +1,24 @@
+@use "../abstract" as *;
+
+.about-main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-main > p, li {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.about-main > h2 {
+    font-size: $large-text;
+    color: $secondary-color;
+    border-bottom: 7px solid $secondary-color;
+    margin: 10px 0;
+}
+
+.about-main > p > a {
+    color: $primary-hover-text-color;
+    text-decoration: none;
+}

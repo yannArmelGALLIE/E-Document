@@ -8,6 +8,8 @@
 @use "component/status";
 @use "component/footer";
 @use "component/admin";
+@use "component/user";
+@use "component/about";
 
 * {
     font-family: "Poppins", sans-serif;
@@ -20,6 +22,8 @@
 body {
   min-height: 100vh;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
 }
 
  /* Display Block For Deafault Scrool Bar */
@@ -29,9 +33,9 @@ body {
 //   }
 
 .section-main {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin: 10rem 0rem;
     width: 100%;
+    flex: 1;
 }
 
 .error {

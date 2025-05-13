@@ -13,7 +13,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             header("Location: ../index.php");
             exit();
         } else {
-            $error_msg = "incorrect";
+            header("Location: ../sign-in.php?error");
+            exit();
         }
     }
 }

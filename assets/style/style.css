@@ -827,6 +827,104 @@ body {
     left: initial;
   }
 }
+.main-user {
+  height: 90vh;
+  width: 80%;
+  margin: auto;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  box-shadow: 34px 34px 67px #bcbcbc, -34px -34px 67px #ffffff;
+}
+
+.main-user > .title-area > h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.info-user {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.p-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+}
+
+.span-info {
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.links-user {
+  margin-top: 20px;
+  text-align: center;
+  width: 60%;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.links-user > .forgotPassword {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+.links-user > .disconnect {
+  width: 26%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff8c00;
+  border: 2px solid #ff8c00;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.links-user > .disconnect:hover {
+  background-color: #e67600;
+}
+
+.about-main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-main > p, li {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.about-main > h2 {
+  font-size: 3rem;
+  color: #228B22;
+  border-bottom: 7px solid #228B22;
+  margin: 10px 0;
+}
+
+.about-main > p > a {
+  color: #ff8c00;
+  text-decoration: none;
+}
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -837,13 +935,15 @@ body {
 body {
   min-height: 100vh;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Display Block For Deafault Scrool Bar */
 .section-main {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin: 10rem 0rem;
   width: 100%;
+  flex: 1;
 }
 
 .error {
