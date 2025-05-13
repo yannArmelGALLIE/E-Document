@@ -1,3 +1,8 @@
+<?php session_start(); 
+if(empty($_SESSION["admin"]) || empty($_SESSION["password"]) ) {
+    header("Location: sign-in-admin.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/style/style.css">
     <script src="../script/admin_page.js" defer></script>
+    <script src="script/users-links.js" defer></script>
+    <script src="script/requests-link.js" defer></script>
     <title>E-Document | Admin | request</title>
 </head>
 <body>
 <div class="container">
-    <?php include("./screens/navbar-admin.php") ?>
+    <!-- <?php include("./screens/navbar-admin.php") ?> -->
         <div class="main">
             <?php include("./screens/search.php") ?>
 

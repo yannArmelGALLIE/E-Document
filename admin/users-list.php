@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,22 +8,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/style/style.css">
     <script src="../script/admin_page.js" defer></script>
+    <script src="script/users-links.js" defer></script>
+    <script src="script/requests-link.js" defer></script>
     <title>E-Document | Admin | request</title>
 </head>
 <body>
 <div class="container">
-    <?php include("./screens/navbar-admin.php") ?>
+    <!-- <?php include("./screens/navbar-admin.php") ?> -->
         <div class="main">
             <?php include("./screens/search.php") ?>
-
+            <?php include("./screens/cards.php") ?>
             <div class="details">
                 <div class="recentOrders">
                     <div class="cardHeader">
-                        <h2>Demades récentes</h2>
+                        <h2>Utilisateurs récents</h2>
                         <a href="#" class="btn">Voir tout</a>
                     </div>
                     <?php include("./screens/table-users.php") ?>
                 </div>
+                <?php include("./screens/admin-bar.php") ?>
             </div>
         </div>
     </div>

@@ -1,3 +1,10 @@
+<?php 
+// session_start();
+include("../data/db.php");
+$stmt = $bdd->query("SELECT * FROM admin");
+$admins = $stmt->fetchAll(PDO::FETCH_ASSOC);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +12,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="../../assets/style/style.css">
-    <script src="../../script/admin_page.js" defer></script>
     <title>E-Document | Admin | request</title>
 </head>
 <body>
@@ -16,14 +21,16 @@
                     </div>
 
                     <table>
+                        <?php foreach($admins as $admin): ?>
                         <tr>
                             <td width="60px">
-                                <div class="imgBx"><img src="assets/imgs/customer02.jpg" alt=""></div>
+                                <div class="imgBx"><img src="" alt=""></div>
                             </td>
                             <td>
-                                <h4>David <br> <span>Italy</span></h4>
+                                <h4><?= htmlspecialchars($admin["surname"]) ?><br> <span><?= htmlspecialchars($admin["status"]) ?></span></h4>
                             </td>
                         </tr>
+                        <?php endforeach; ?>
                     </table>
                 </div>
             </div>

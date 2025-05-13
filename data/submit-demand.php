@@ -16,7 +16,8 @@ if(isset($_POST["submit"])){
          $demand = implode(", ", $checkboxes);
          $date = date("Y-m-d");
          $time = date("H:i:s");
-         $req = $bdd -> prepare("INSERT INTO request VALUES (0, :id_user, :numCni, :email, :password, :demand, :requestDate, :requestTime, :receptionDate, :receptionTime, :status)");
+         $req = $bdd -> prepare("INSERT INTO request VALUES (0, :id_user, :numCni, :email, :password, :demand, 
+               :requestDate, :requestTime, :receptionDate, :receptionTime, :status, :filePath)");
          $req -> execute(
              array(
                  "id_user" => $rep["id"],
@@ -28,7 +29,8 @@ if(isset($_POST["submit"])){
                  "requestTime" => $time,
                  "receptionDate" => null,
                  "receptionTime" => null,
-                 "status" => "En cours d'envoie"
+                 "status" => "En cours d'envoi",
+                 "filePath" => null
              )
          );
       header("Location: ../status.php");

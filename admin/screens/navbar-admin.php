@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="../../assets/style/style.css">
-    <script src="../../script/admin_page.js" defer></script>
     <title>E-Document | Admin | request</title>
 </head>
 <body>
@@ -18,25 +16,17 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="request.php">
                         <span class="material-symbols-outlined">home</span>
                         <span class="title">Requêtes</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="users-list.php">
                         <span class="material-symbols-outlined">groups</span>
                         <span class="title">utilisateurs</span>
                     </a>
                 </li>
-
-                <li>
-                    <a href="#">
-                    <span class="material-symbols-outlined">description</span>
-                        <span class="title">Fichiers</span>
-                    </a>
-                </li>
-
                 <li>
                     <a href="#">
                     <span class="material-symbols-outlined">message</span>

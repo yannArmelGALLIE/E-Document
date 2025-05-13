@@ -5,23 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="../../assets/style/style.css">
-    <script src="../../script/admin_page.js" defer></script>
     <title>E-Document | Admin | request</title>
 </head>
 <body>
             <div class="cardBox">
-                <div class="card">
+                <div class="card" id="users">
                     <div>
-                        <div class="numbers">1,504</div>
-                        <div class="cardName">Vues quotidiennes</div>
+                        <div class="numbers">200</div>
+                        <div class="cardName">Utilisateurs</div>
                     </div>
-                    <span class="material-symbols-outlined">visibility</span>
+                    <span class="material-symbols-outlined">groups</span>
                 </div>
 
-                <div class="card">
+                <div class="card" id="requests">
                     <div>
-                        <div class="numbers">284</div>
+                        <div class="numbers">29</div>
                         <div class="cardName">Demandes</div>
                     </div>
                     <span class="material-symbols-outlined">description</span>
@@ -33,6 +31,13 @@
                         <div class="cardName">Messages</div>
                     </div>
                     <span class="material-symbols-outlined">message</span>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">35</div>
+                        <div class="cardName">Statistiques</div>
+                    </div>
+                    <span class="material-symbols-outlined">monitoring</span>
                 </div>
             </div>
 </body>
